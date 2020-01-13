@@ -2,7 +2,7 @@
 	"name": "a16",
 	"displayName": "a16",
 	"description": "a16 ",
-	"version": "0.5.3",
+	"version": "0.6.0",
 	"publisher": "dearest",
 	"engines": {
 		"vscode": "^1.41.0"
@@ -34,8 +34,8 @@
 			{
 				"path": "./syntaxes/injection.json",
 				"scopeName": "a16.injection",
-				"injectTo": [ 
-					"source.py", 
+				"injectTo": [
+					"source.py",
 					"source.python"
 				]
 			}
