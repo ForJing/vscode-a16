@@ -2,7 +2,7 @@
     "name": "a16",
     "displayName": "a16",
     "description": "a16 ",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "publisher": "dearest",
     "engines": {
         "vscode": "^1.41.0"
