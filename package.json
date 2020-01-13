@@ -1,36 +1,44 @@
 {
-    "name": "a16",
-    "displayName": "a16",
-    "description": "a16 ",
-    "version": "0.5.3",
-    "publisher": "dearest",
-    "engines": {
-        "vscode": "^1.41.0"
-    },
-    "categories": [
-        "Programming Languages",
-        "Snippets"
-    ],
-    "contributes": {
-        "languages": [
-            {
-                "id": "a16",
-                "aliases": [
-                    "a16",
-                    "a16"
-                ],
-                "extensions": [
-                    ".a16"
-                ],
-                "configuration": "./language-configuration.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "a16",
-                "scopeName": "source.a16",
-                "path": "./syntaxes/a16.tmLanguage.json"
-            }
-        ]
-    }
+	"name": "a16",
+	"displayName": "a16",
+	"description": "a16 ",
+	"version": "0.5.3",
+	"publisher": "dearest",
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "a16",
+				"aliases": [
+					"a16",
+					"a16"
+				],
+				"extensions": [
+					".a16"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "a16",
+				"scopeName": "source.a16",
+				"path": "./syntaxes/a16.tmLanguage.json"
+			},
+			{
+				"path": "./syntaxes/injection.json",
+				"scopeName": "a16.injection",
+				"injectTo": [ 
+					"source.py", 
+					"source.python"
+				]
+			}
+		]
+	}
 }

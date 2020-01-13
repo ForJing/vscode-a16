@@ -1,7 +1,7 @@
 {
-	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "a16",
-	"patterns": [
+	"scopeName": "a16.injection",
+	"injectionSelector": "L:string.quoted.multi",
+		"patterns": [
 		{
 			"include": "#operators"
 		},
@@ -41,12 +41,12 @@
 		"addresses": {
 			"patterns": [
 				{
-					"name": "string.quoted.double.a16",
+					"name": "variable.parameter.a16",
 					"match": "@\\w+"
 				}
 			]
 		},
-		"numbers": {
+		"numbers": { 
 			"patterns": [
 				{
 					"name": "constant.numeric.a16",
@@ -63,6 +63,5 @@
 				}
 			]
 		}
-	},
-	"scopeName": "source.a16"
+	} 
 }
