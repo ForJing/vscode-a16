@@ -1,0 +1,25 @@
+{
+    "name": "a16",
+    "displayName": "a16",
+    "description": "a16 ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "a16",
+            "aliases": ["a16", "a16"],
+            "extensions": [".a16"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "a16",
+            "scopeName": "source.a16",
+            "path": "./syntaxes/a16.tmLanguage.json"
+        }]
+    }
+}
