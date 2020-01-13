@@ -26,7 +26,7 @@
 			"patterns": [
 				{
 					"name": "entity.name.function.a16",
-					"match": "\\b(set|load|add|save|compare|jump_if_great|jump|save_from_register|set2|load2|add2|save2|subtract2|load_from_register|load_from_register2|jump_from_register|shift_right|and|halt)\\b"
+					"match": "\\b(set|load|add|save|compare|jump_if_great|jump|save_from_register|set2|load2|add2|save2|subtract2|load_from_register|load_from_register2|save_from_register2|jump_from_register|shift_right|and|halt)\\b"
 				}
 			]
 		},
